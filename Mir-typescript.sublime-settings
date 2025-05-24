@@ -1,0 +1,79 @@
+// Mir-typescript.sublime-settings
+{
+    "statusText": "$version, $source",
+    "diagnostics.ignoredCodes": [],
+
+    // Implicit Project Configuration
+    "implicitProjectConfiguration.checkJs": false,
+    "implicitProjectConfiguration.experimentalDecorators": false,
+    "implicitProjectConfiguration.module": "ESNext",
+    "implicitProjectConfiguration.strictFunctionTypes": true,
+    "implicitProjectConfiguration.strictNullChecks": true,
+    "implicitProjectConfiguration.target": "ES2020",
+
+    // Formatting options.
+    "javascript.format.insertSpaceAfterCommaDelimiter": true,
+    "javascript.format.insertSpaceAfterConstructor": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+    "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "javascript.format.insertSpaceAfterTypeAssertion": false,
+    "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "javascript.format.insertSpaceBeforeTypeAnnotation": false,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "javascript.format.semicolons": "ignore", // ignore | insert | remove
+    "javascript.format.trimTrailingWhitespace": true,
+    "typescript.format.insertSpaceAfterCommaDelimiter": true,
+    "typescript.format.insertSpaceAfterConstructor": false,
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+    "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+    "typescript.format.insertSpaceAfterTypeAssertion": false,
+    "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "typescript.format.insertSpaceBeforeTypeAnnotation": false,
+    "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "typescript.format.semicolons": "ignore", // ignore | insert | remove
+    "typescript.format.trimTrailingWhitespace": true,
+
+    // Inlay hints options.
+    "javascript.inlayHints.includeInlayEnumMemberValueHints": false,
+    "javascript.inlayHints.includeInlayFunctionLikeReturnTypeHints": false,
+    "javascript.inlayHints.includeInlayFunctionParameterTypeHints": false,
+    "javascript.inlayHints.includeInlayParameterNameHints": "none", // none | literals | all
+    "javascript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": false,
+    "javascript.inlayHints.includeInlayPropertyDeclarationTypeHints": false,
+    "javascript.inlayHints.includeInlayVariableTypeHints": false,
+    "javascript.inlayHints.includeInlayVariableTypeHintsWhenTypeMatchesName": false,
+    "typescript.inlayHints.includeInlayEnumMemberValueHints": false,
+    "typescript.inlayHints.includeInlayFunctionLikeReturnTypeHints": false,
+    "typescript.inlayHints.includeInlayFunctionParameterTypeHints": false,
+    "typescript.inlayHints.includeInlayParameterNameHints": "none", // none | literals | all
+    "typescript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": false,
+    "typescript.inlayHints.includeInlayPropertyDeclarationTypeHints": false,
+    "typescript.inlayHints.includeInlayVariableTypeHints": false,
+    "typescript.inlayHints.includeInlayVariableTypeHintsWhenTypeMatchesName": false,
+
+    // Code Lens options.
+    "javascript.implementationsCodeLens.enabled": false,
+    "javascript.referencesCodeLens.enabled": false,
+    "javascript.referencesCodeLens.showOnAllFunctions": false,
+    "typescript.implementationsCodeLens.enabled": false,
+    "typescript.referencesCodeLens.enabled": false,
+    "typescript.referencesCodeLens.showOnAllFunctions": false,
+}
