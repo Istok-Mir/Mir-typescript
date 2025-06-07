@@ -1,5 +1,5 @@
 from typing import TypedDict
-from Mir import LanguageServer, deno, LoaderInStatusBar, PackageStorage, run_command
+from Mir import LanguageServer, deno, LoaderInStatusBar, PackageStorage, command
 import sublime
 
 
@@ -18,7 +18,7 @@ class TypeScriptLanguageServer(LanguageServer):
         server_path = server_storage / "language-server" / 'node_modules' / 'typescript-language-server' / 'lib' / 'cli.mjs'
         if not server_path.exists():
             with LoaderInStatusBar(f'installing {self.name}'):
-                await run_command([deno.path, "install"], cwd=str(server_storage / "language-server"))
+                await command([deno.path, "install"], cwd=str(server_storage / "language-server"))
 
         self.on_request('custom_request', custom_request_handler)
         self.on_notification('$/typescriptVersion', on_typescript_version)
